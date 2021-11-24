@@ -1,0 +1,28 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.img-style {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+p {
+  align-items: center;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
